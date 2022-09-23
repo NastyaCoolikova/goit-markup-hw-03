@@ -1,0 +1,176 @@
+/* колір фону #FFFFFF */
+/* другорядний колір фону темно-сірий #2F303A */
+/* третій колір фону світло-сірий #F5F4FA */
+/* основний колір тексту #212121 */
+/* другорядний колір тексту #757575 */
+/* акцентний колір тексту і кнопок #2196F3*/
+/* додатковий колір тексту #FFFFFF */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-colour: #2196f3;
+  --primary-bg-color: #ffffff;
+}
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+}
+.logo {
+  color: #000000;
+  text-decoration: none;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.web {
+  color: var(--accent-colour);
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+/* Site nav */
+.site-nav .link {
+  color: var(--title-text-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-colour);
+}
+.site-nav .link.current {
+  color: var(--accent-colour);
+}
+.auth-nav a {
+  color: var(--primary-text-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.auth-nav a:hover {
+  color: var(--accent-colour);
+}
+/* Hero */
+.hero-title {
+  color: var(--primary-bg-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.button {
+  color: var(--primary-bg-color);
+  background-color: var(--accent-colour);
+  font-family: inherit;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* Section */
+.section .section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+/* Features */
+.name h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--title-text-color);
+}
+
+.feature h3 {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.feature p {
+  font-size: 14px;
+  line-height: 1.71;
+}
+.name p {
+  font-size: 16px;
+  line-height: 1.19;
+}
+/* Footer */
+.footer address {
+  color: var(--primary-bg-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.footer address a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.02em;
+}
+.footer .logo {
+  color: #ffffff;
+}
+/* Portfolio */
+.work-filter .button {
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+}
+.work-filter .button:focus,
+.work-filter .button:hover {
+  color: var(--primary-bg-color);
+  background-color: var(--accent-colour);
+}
+.work-items a {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+.work-filter button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+}
+.work-items h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--title-text-color);
+  letter-spacing: 0.06em;
+}
+.work-items p {
+  font-size: 16px;
+  line-height: 1.88;
+}
