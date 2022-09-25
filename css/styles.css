@@ -52,8 +52,7 @@ body {
 }
 /* Header */
 .header {
-  padding: 24px 0 25px 0;
-  border: 1px solid #ECECEC;
+  border-bottom: 1px solid #ECECEC;
 }
 /* Main nav */
 .nav {
@@ -247,11 +246,14 @@ padding: 94px 0;
   line-height: 1.19;
 }
 .name h3 {
-  padding-top: 30px;
+  margin-top: 30px;
   margin-bottom: 10px;
 }
 .name p {
   padding-bottom: 30px;
+}
+.name img {
+  display: block;
 }
 /* Footer */
 .footer {
