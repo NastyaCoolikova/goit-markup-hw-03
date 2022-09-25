@@ -260,7 +260,7 @@ padding: 94px 0;
   background: #2F303A;
   padding: 60px 0;
 }
-.footer address {
+.footer ul {
   color: var(--primary-bg-color);
   font-style: normal;
   font-weight: 400;
@@ -268,7 +268,7 @@ padding: 94px 0;
   line-height: 1.71;
   margin-top: 20px;
 }
-.footer address a {
+.footer ul a {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
